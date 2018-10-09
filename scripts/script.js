@@ -16,3 +16,4 @@ var anwser;
 
 answer = 1000 + '108';
 console.log(answer);
+// ответ 1000108;
