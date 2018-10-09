@@ -1,1 +1,2 @@
 var celsium;
+var farengeit;
