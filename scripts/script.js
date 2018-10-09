@@ -12,3 +12,7 @@ var name = 'Василий';
 admin = name;
 console.log(admin);
 
+var anwser;
+
+answer = 1000 + '108';
+console.log(answer);
