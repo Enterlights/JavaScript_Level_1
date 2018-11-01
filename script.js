@@ -26,14 +26,13 @@ var playing = true;
 var pauseButton = document.getElementById('pause');
 
 function pauseSlideshow() {
-    pauseButton.innerHTML = '&#9658;'; // play character
+    pauseButton.innerHTML = '&#9658;';
     playing = false;
     clearInterval(slideInterval);
 }
 
 function playSlideshow() {
-    pauseButton.innerHTML = '&#10074;&#10074;'; // pause character
-    playing = true;
+    pauseButton.innerHTML = '&#10074;&#10074;';
     slideInterval = setInterval(nextSlide, 2000);
 }
 
